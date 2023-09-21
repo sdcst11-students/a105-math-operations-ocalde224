@@ -11,3 +11,11 @@ Read through the file **example1.py** for information on using the math module.
 * You will require the use of the round() function from example1.py
 '''
 
+F = (62.5)
+n = 0.56
+t = 32
+
+d = (F - t)
+C = (d * n)
+C = round(C , 1)
+print(C)
